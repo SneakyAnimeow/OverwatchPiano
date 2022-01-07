@@ -125,11 +125,11 @@ rule("Global init")
         Create HUD Text(All Players(All Teams), Null, Null, Custom String(
             "Host player: Press Interact to start and stop the song, \\nand Crouch+Primary or Crouch+Secondary Fire to change speed"), Top,
             0, Color(White), Color(White), Color(White), Visible To and String, Default Visibility);
-        Create HUD Text(All Players(All Teams), Null, Custom String("By ScroogeD"), Null, Left, 0, Color(White), Color(Yellow), Color(White),
+        Create HUD Text(All Players(All Teams), Null, Custom String("By ScroogeD & Dashie"), Null, Left, 0, Color(White), Color(Yellow), Color(White),
             Visible To and String, Default Visibility);
-        Create HUD Text(All Players(All Teams), Null, Custom String("Website: github.com/ScroogeD2/owmidiconverter"), Null, Left, 1, Color(White),
+        Create HUD Text(All Players(All Teams), Null, Custom String("Converter: github.com/ScroogeD2/owmidiconverter"), Null, Left, 1, Color(White),
             Color(Yellow), Color(White), Visible To and String, Default Visibility);
-        Create HUD Text(All Players(All Teams), Null, Custom String("Used Dashie's Midi Database"), Null, Left, 2, Color(White),
+        Create HUD Text(All Players(All Teams), Null, Custom String("App: github.com/SneakyAnimeow/OverwatchPiano"), Null, Left, 2, Color(White),
             Color(Aqua), Color(White), Visible To and String, Default Visibility);
         Create HUD Text(Filtered Array(All Players(All Teams), Has Status(Current Array Element, Frozen)), Custom String(
             "The host player has decided to remove you temporarily. Please wait a minute before rejoining."), Null, Null, Top, 1, Color(White),
