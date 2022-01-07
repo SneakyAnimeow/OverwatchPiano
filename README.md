@@ -1,7 +1,6 @@
 ﻿# OverwatchPiano
 ***
-Overwatch Midi Converter with its own with midis database. Written using React.js on frontend and .NET Core on backend and Microsoft SQL Server as database engine.
-
+Overwatch Midi Converter with its own midis database. Written using React.js on frontend and .NET Core on backend and Microsoft SQL Server as database engine.
 
 # How to compile
 ***
