@@ -15,7 +15,7 @@ dotnet publish -c Release -o Build
 ***
 After first start application will close automatically and create file app_config.xml. Change default values in it and start app again.
 
-####app_config.xml
+#### app_config.xml
 ```xml
 <AppConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
     <MssqlConfig>
@@ -34,7 +34,7 @@ After first start application will close automatically and create file app_confi
 </AppConfig>
 ```
 
-#Database Configuration
+# Database Configuration
 ***
 After setting up your SQL Server (Express is far more than enough), create database you want to provide for this app and create new table using this code. Replace ```[Piano]``` with the name of your database, like this ```[MyDatabaseIsMuchMoreCoolThanPiano]```.
 ```tsql
